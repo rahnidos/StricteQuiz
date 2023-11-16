@@ -1,0 +1,20 @@
+{
+  "name": "StricteQuiz",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "yarn install && electron ./",
+    "build": "electron-builder",
+    "rebuild": "electron-rebuild -f -w better-sqlit3",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.16"
+  },
+  "devDependencies": {
+    "electron": "27.1.0",
+    "electron-builder": "^22.4.1",
+    "webpack": "^5.89.0"
+  }
+}
