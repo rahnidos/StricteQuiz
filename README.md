@@ -1,0 +1,2 @@
+# StricteQuiz
+Simple Quiz Facilitator
